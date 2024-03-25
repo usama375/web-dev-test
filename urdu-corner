@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Urdu Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Noto Nastaliq Urdu', serif;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+
+    .main {
+      margin-top: 20px;
+    }
+
+    .main h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .main ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .main li {
+      width: 25%;
+      margin: 10px;
+      padding: 10px;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .main li a {
+      font-size: 18px;
+      color: #000000;
+      text-decoration: none;
+    }
+
+    .main li a:hover {
+      color: #ff0000;
+    }
+
+    .footer {
+      background-color: #f5f5f5;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer p {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>اردو ویب سائٹ</h1>
+      <p>یہ ایک سادہ اردو ویب سائٹ ہے جو ٹیل ونڈ، ایچ ٹی ایم ایل اور جے ایس کا استعمال کرکے بنائی گئی ہے۔</p>
+    </div>
+    <div class="main">
+      <h2>اہم لنکس</h2>
+      <ul>
+        <li><a href="#">ہوم</a></li>
+        <li><a href="#">نیوز</a></li>
+        <li><a href="#">رابطہ کریں</a></li>
+        <li><a href="#">ہمارے بارے میں</a></li>
+      </ul>
+    </div>
+    <div class="footer">
+      <p>تمام حقوق محفوظ ہیں۔</p>
+    </div>
+  </div>
+</body>
+
+</html>
